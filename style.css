@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navBar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navImg{
+ height: 50px;
+ width: 100px;
+ background-image: url("amazon_logo.png");
+ background-size: cover;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+.add1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 16px;
+}
+.add2{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+}
+.add2 p{
+    margin-left: 3px;
+}
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;   
+    border-radius: 4px; 
+}
+.navSearch:hover{
+    border: 2px solid orange;
+}
+#select{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    color: black;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+     border: none;
+
+}
+.navInput{
+    width: 100%;
+    font-size: 1rem;
+}
+.magnify{
+    width: 50px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+span{
+    font-size: 0.7rem;
+}
+.signp2{
+    font-size: 0.85;
+}
+.navReturn span{
+font-size: 0.7;
+}
+.navReturnp2{
+    font-size:0.85 ;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.panelOps p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelOps{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panelDeals{
+    font: 0.9rem;
+    font-weight: 500;
+}
+.heroImg{
+    height: 350px;
+    background-image: url("hero_image.jpg");
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.heromsg a{
+    text-decoration: none;
+    color: #007185;
+}
+.shopSec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: wrap;
+
+    background-color: #e2e7e6;
+
+}
+.box{
+   
+   height: 330px;
+   width: 23%;
+   background-color: white;
+   padding: 20px 0px 15px;
+}
+.box h2{
+    text-align: center;
+}
+.box p{
+    color: #007185;
+}
+.box:hover{
+border: 2px solid #222f3d;;
+}
+.boximg1{
+    height: 300px;
+    width: 90%;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg2{
+    height: 300px;
+    width: 90%;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg3{
+    height: 300px;
+    width: 90%;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg4{
+    height: 300px;
+    width: 90%;
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg5{
+    height: 300px;
+    width: 90%;
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg6{
+    height: 300px;
+    width: 90%;
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg7{
+    height: 300px;
+    width: 90%;
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.boximg8{
+    height: 300px;
+    width: 90%;
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    margin-left: 15px;
+}
+.footPanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.footPanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+ul{
+    margin-top: 25px;
+}
